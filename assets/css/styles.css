@@ -1,4 +1,4 @@
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   .logo {
     /*margin-right: start!important;*/
     vertical-align: middle;
@@ -15,21 +15,21 @@
   border-radius: var(--bs-border-radius-2xl)!important;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   .card1 {
     margin: 0px!important;
     margin-bottom: 30px!important;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   .card2 {
     margin: 0px!important;
     margin-bottom: 30px!important;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   .services {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-warning-rgb),var(--bs-text-opacity))!important;
@@ -51,7 +51,7 @@
   margin-top: 25px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   .reviewcard1 {
     /*margin: 0px!important;*/
     margin-bottom: 20px!important;
@@ -60,19 +60,19 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   .reviewcard2 {
     width: 300px!important;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   .reviewcard3 {
     width: 300px!important;
   }
 }
 
-@media (max-width:450px) {
+@media (max-width:400px) {
   .reviewcard4 {
     width: 300px!important;
   }
@@ -111,6 +111,7 @@
     align-items: center!important;
     align-content: center;
     align-self: center;
+    justify-content: center!important;
   }
 }
 
