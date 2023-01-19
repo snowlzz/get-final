@@ -1,0 +1,116 @@
+@media (max-width: 450px) {
+  .logo {
+    /*margin-right: start!important;*/
+    vertical-align: middle;
+  }
+}
+
+@media (min-width: 1400px) {
+  .me-auto {
+    margin-right: auto!important;
+  }
+}
+
+.rounded {
+  border-radius: var(--bs-border-radius-2xl)!important;
+}
+
+@media (max-width: 450px) {
+  .card1 {
+    margin: 0px!important;
+    margin-bottom: 30px!important;
+  }
+}
+
+@media (max-width: 450px) {
+  .card2 {
+    margin: 0px!important;
+    margin-bottom: 30px!important;
+  }
+}
+
+@media (max-width: 450px) {
+  .services {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-warning-rgb),var(--bs-text-opacity))!important;
+    text-align: start!important;
+    margin-left: -13px!important;
+  }
+}
+
+.descript {
+  text-align: start!important;
+  margin-left: -11px!important;
+  margin-top: 30px;
+  margin-bottom: 20pxp;
+}
+
+.desc2 {
+  text-align: start!important;
+  margin-left: -10px!important;
+  margin-top: 25px;
+}
+
+@media (max-width: 450px) {
+  .reviewcard1 {
+    /*margin: 0px!important;*/
+    margin-bottom: 20px!important;
+    padding: 0px!important;
+    width: 300px!important;
+  }
+}
+
+@media (max-width: 450px) {
+  .reviewcard2 {
+    width: 300px!important;
+  }
+}
+
+@media (max-width: 450px) {
+  .reviewcard3 {
+    width: 300px!important;
+  }
+}
+
+@media (max-width:450px) {
+  .reviewcard4 {
+    width: 300px!important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .reviews {
+    padding: 0px;
+    margin: 48px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .plancard {
+    height: 550px;
+    width: 400px;
+  }
+}
+
+.plancard1 {
+  height: 550px;
+  width: 400px;
+}
+
+@media (min-width: 1360px) {
+  .plans-cont {
+    padding: 48px;
+  }
+}
+
+@media (max-width: 450px) {
+  .m-auto {
+    /*margin: auto!important;*/
+    align-items: center!important;
+    align-content: center;
+    align-self: center;
+  }
+}
+
