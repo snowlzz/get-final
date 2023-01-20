@@ -7,6 +7,7 @@
     <title>full</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/SF%20Pro%20Display.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/Dark-NavBar-Navigation-with-Button.css">
     <link rel="stylesheet" href="assets/css/Dark-NavBar-Navigation-with-Search.css">
     <link rel="stylesheet" href="assets/css/Dark-NavBar.css">
@@ -16,7 +17,7 @@
 
 <body>
     <div></div>
-    <nav class="navbar navbar-light navbar-expand-md text-end">
+    <nav class="navbar navbar-light navbar-expand-md fw-semibold text-end">
         <div class="container-fluid"><img src="assets/img/logo%20simbolo.png" width="200"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto">
@@ -35,10 +36,10 @@
                     <h1 class="display-4 fw-bolder text-start text-white mb-3" style="font-family: 'SF Pro Display';font-weight: bold;text-align: justify;/*margin-left: 20px;*/">Get Coached, online personal trainers</h1>
                     <h1 class="text-warning" style="font-family: 'SF Pro Display';/*margin-left: 20px;*/font-weight: bold;">Result Guaranteed.</h1>
                     <p class="text-white mb-4" style="/*margin-left: 20px;*/font-family: 'SF Pro Display';">Request now a free quote to reach your goal and you will get your own fitness program for your specific body type and goal. The program include training, diet and supplementation.</p>
-                    <div class="my-3"><a class="btn btn-primary btn-lg text-uppercase fs-5 fw-bolder bg-warning border rounded me-2" role="button" href="#plans" style="/*margin-left: 20px;*/">Start fitness assessment</a></div>
+                    <div class="my-3"><a class="btn btn-primary btn-lg text-uppercase fs-5 fw-bolder bg-warning border rounded me-2" role="button" data-bss-hover-animate="pulse" href="#plans" style="/*margin-left: 20px;*/">Start fitness assessment</a></div>
                 </div>
             </div>
-            <div class="col-md-6 order-first order-md-last" style="min-height: 250px;"><img class="w-100 h-100 fit-cover bg1" src="assets/img/gym_facebook_cover_17.png"></div>
+            <div class="col-md-6 order-first order-md-last" style="min-height: 250px;"><img class="img-fluid w-100 h-100 fit-cover bg1" src="assets/img/gym_facebook_cover_17.png"></div>
         </div>
     </div>
     <div class="container-fluid" style="padding: 48px;">
@@ -53,28 +54,29 @@
             <div class="col-md-4" style="padding-left: 0px;padding-right: 0px;margin-bottom: 30px;">
                 <div class="m-auto p-4 text-center shadow-lg m-5 rounded-5 card1" id="cardEntrada-2" style="background: linear-gradient(180deg, var(--bs-warning) 26%, var(--bs-black) 89%), var(--bs-purple);width: 280px;"><img class="pt-2 w-50" src="assets/img/128255522316297299463941-128.png">
                     <h1 class="fw-bolder text-white text-center pt-2" style="font-size: 20px;">I WANT TO BUILD MUSCLE</h1>
-                    <p class="fw-bold pt-1 text-white p-0 m-0">Subtitle</p>
-                    <p class="fw-light text-white m-0">Description</p>
+                    <p class="fw-light text-white m-0">Defined muscles, strength and health. Start your resistance training today with professional guidance and achieve your goals.<br></p>
                     <hr class="text-white">
-                    <div class="col-12"><button class="btn" type="button" data-bs-target="#modalRecibirCadaber" data-bs-toggle="modal"></button></div>
+                    <div class="col-12">
+                        <div class="col-12"><button class="btn btn-warning text-center link-warning border rounded border-2 border-white d-flex justify-content-center m-auto" type="button" style="background: rgba(255,193,7,0);box-shadow: 3px 3px 7px 1px rgba(255,193,7,0.44);">START NOW</button></div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4" style="padding-right: 0px;padding-left: 0px;margin-bottom: 30px;">
+            <div class="col-md-4" style="padding-right: 0px;padding-left: 0px;margin-bottom: 30px;margin-top: -15px;">
                 <div class="m-auto p-4 text-center shadow-lg m-5 rounded-5 card2" id="cardEntrada-1" style="background: linear-gradient(180deg, var(--bs-warning) 26%, var(--bs-black) 89%), var(--bs-purple);width: 280px;padding-right: 0px;"><img class="pt-2 w-50" src="assets/img/12405348911595759946-128.png">
                     <h3 class="fw-bolder text-white text-center pt-2" style="font-size: 20PX;">I WANT TO GET LEANER<br><br></h3>
-                    <p class="fw-bold pt-1 text-white p-0 m-0">Subtitle</p>
-                    <p class="fw-light text-white m-0">Description</p>
+                    <p class="fw-light text-white m-0">Lose weight, feel great. Start your healthy lifestyle today with expert guidance and reach your goals.<br></p>
                     <hr class="text-white">
-                    <div class="col-12"><button class="btn" type="button" data-bs-target="#modalRecibirCadaber" data-bs-toggle="modal"></button></div>
+                    <div class="col-12"><button class="btn btn-warning text-center link-warning border rounded border-2 border-white d-flex justify-content-center m-auto" type="button" style="background: rgba(255,193,7,0);box-shadow: 3px 3px 7px 1px rgba(255,193,7,0.44);">START NOW</button></div>
                 </div>
             </div>
             <div class="col-md-4" style="padding-right: 0px;padding-left: 0px;">
-                <div class="m-auto p-4 text-center shadow-lg m-5 rounded-5" style="background: linear-gradient(180deg, var(--bs-warning) 26%, var(--bs-black) 89%), var(--bs-purple);padding: 24px;margin: 0px;width: 280px;" id="cardEntrada-3"><img class="pt-2 w-50" src="assets/img/142389154216344783254478-128.png">
+                <div class="m-auto p-4 text-center shadow-lg m-5 rounded-5" style="background: linear-gradient(180deg, var(--bs-warning) 26%, var(--bs-black) 89%), var(--bs-purple);padding: 24px;margin: 0px;width: 280px;height: 429px;" id="cardEntrada-3"><img class="pt-2 w-50" src="assets/img/142389154216344783254478-128.png">
                     <h3 class="fw-bolder text-white text-center pt-2" style="font-size: 20PX;">I WANT TO GAIN STRENGHT</h3>
-                    <p class="fw-bold pt-1 text-white p-0 m-0">Subtitle</p>
-                    <p class="fw-light text-white m-0">Description</p>
+                    <p class="fw-light text-white m-0" style="padding-top: 16px;">Gain strength, boost confidence. Start your strength training today with professional guidance and reach your goals.<br></p>
                     <hr class="text-white">
-                    <div class="col-12"><button class="btn" type="button" data-bs-target="#modalRecibirCadaber" data-bs-toggle="modal"></button></div>
+                    <div class="col-12">
+                        <div class="col-12"><button class="btn btn-warning text-center link-warning border rounded border-2 border-white d-flex justify-content-center m-auto" type="button" style="background: rgba(255,193,7,0);box-shadow: 3px 3px 7px 1px rgba(255,193,7,0.44);">START NOW</button></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -88,34 +90,34 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid reviews">
+    <div class="container reviews">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" style="padding-right: 12px;padding-left: 12px;">
                 <h1 class="fw-bolder text-warning" style="font-family: 'SF Pro Display';margin-top: 20px;margin-bottom: 30px;">Our Students Reviews</h1>
             </div>
         </div>
         <div class="row justify-content-center align-items-center" style="margin-right: 0px;margin-left: 0px;">
             <div class="col-md-6" style="height: 570px;margin-top: 50px;">
                 <div class="bg-secondary border rounded border-0 m-auto reviewcard1" style="width: 400px;height: 570px;margin-right: 0px;margin-left: 0px;background: linear-gradient(black 12%, #ffc124 67%);box-shadow: 6px 8px 10px rgba(41,40,33,0.21);"><img class="d-flex d-sm-flex d-xxl-flex justify-content-center m-auto justify-content-sm-center" src="assets/img/CJ%202%20F%201.png" width="300px">
-                    <h1 class="fw-bolder text-center text-white">Heading</h1>
+                    <h1 class="fw-bolder text-center text-white">Lucas</h1>
                     <p class="text-center text-white" style="padding: 0px;margin: 0px;margin-top: 0px;margin-right: 15px;margin-left: 15px;">I continuously bring up<br>Get Coached when people around me ask what the secret was to getting this lean. The accountability. tools, and knowledge you've provided have been life-changing!<br></p>
                 </div>
             </div>
             <div class="col" style="margin-top: 50px;">
-                <div class="bg-secondary border rounded border-0 m-auto reviewcard1" style="width: 400px;height: 570px;margin-right: 0px;margin-left: 0px;background: linear-gradient(black 12%, #ffc124 67%);box-shadow: 6px 8px 10px rgba(41,40,33,0.21);"><img class="d-flex d-sm-flex d-xxl-flex justify-content-center m-auto justify-content-sm-center" src="assets/img/CJ%202%20F%201.png" width="300px">
-                    <h1 class="fw-bolder text-center text-white">Heading</h1>
+                <div class="bg-secondary border rounded border-0 m-auto reviewcard1" style="width: 400px;height: 570px;margin-right: 0px;margin-left: 0px;background: linear-gradient(black 12%, #ffc124 67%);box-shadow: 6px 8px 10px rgba(41,40,33,0.21);"><img class="d-flex d-sm-flex d-xxl-flex justify-content-center m-auto justify-content-sm-center" src="assets/img/CJ%202%20F%203%20(1).png" width="300px">
+                    <h1 class="fw-bolder text-center text-white">John</h1>
                     <p class="text-center text-white" style="margin-right: 15px;margin-left: 15px;margin-bottom: 0px;">My body has changed<br>REALLY drastically. Abs are starting to show definition all the way down the middle and around the sides, much more definition and vascularity in biceps and triceps, and my back looks noticeably more muscular when I flex.<br></p>
                 </div>
             </div>
             <div class="col-md-6" style="margin-top: 50px;">
-                <div class="bg-secondary border rounded border-0 m-auto reviewcard1" style="width: 400px;height: 570px;margin-right: 0px;margin-left: 0px;background: linear-gradient(black 12%, #ffc124 67%);box-shadow: 6px 8px 10px rgba(41,40,33,0.21);"><img class="d-flex d-sm-flex d-xxl-flex justify-content-center m-auto justify-content-sm-center" src="assets/img/CJ%202%20F%201.png" width="300px">
-                    <h1 class="fw-bolder text-center text-white">Heading</h1>
+                <div class="bg-secondary border rounded border-0 m-auto reviewcard1" style="width: 400px;height: 570px;margin-right: 0px;margin-left: 0px;background: linear-gradient(black 12%, #ffc124 67%);box-shadow: 6px 8px 10px rgba(41,40,33,0.21);"><img class="d-flex d-sm-flex d-xxl-flex justify-content-center m-auto justify-content-sm-center" src="assets/img/CJ%202%20F%202%20(1).png" width="300px">
+                    <h1 class="fw-bolder text-center text-white">Jane</h1>
                     <p class="text-center text-white" style="margin-left: 15px;margin-right: 15px;">I have lost close to 40 lbs, 10% body fat, and 8 inches off my waist. My level of fitness has increased significantly.<br>The improvement I have seen in myself because of<br>Get Coached makes me want to push myself to work harder with each workout.<br></p>
                 </div>
             </div>
             <div class="col" style="margin-top: 50px;">
-                <div class="bg-secondary border rounded border-0 m-auto reviewcard1" style="width: 400px;height: 570px;margin-right: 0px;margin-left: 0px;background: linear-gradient(black 12%, #ffc124 67%);box-shadow: 6px 8px 10px rgba(41,40,33,0.21);"><img class="d-flex d-sm-flex d-xxl-flex justify-content-center m-auto justify-content-sm-center" src="assets/img/CJ%202%20F%201.png" width="300px">
-                    <h1 class="fw-bolder text-center text-white">Heading</h1>
+                <div class="bg-secondary border rounded border-0 m-auto reviewcard1" style="width: 400px;height: 570px;margin-right: 0px;margin-left: 0px;background: linear-gradient(black 12%, #ffc124 67%);box-shadow: 6px 8px 10px rgba(41,40,33,0.21);"><img class="d-flex d-sm-flex d-xxl-flex justify-content-center m-auto justify-content-sm-center" src="assets/img/CJ%202%20F%204.png" width="300px">
+                    <h1 class="fw-bolder text-center text-white">Mary</h1>
                     <p class="text-center text-white" style="margin-right: 15px;margin-left: 15px;">I feel more toned and happy with what I've been seeing in the mirror. Also the fact that l've almost lost 2 inches around my waist!<br></p>
                 </div>
             </div>
@@ -126,6 +128,7 @@
             <div class="col-md-12">
                 <h1 class="fw-bolder text-end text-warning" style="margin-top: 20px;margin-bottom: 20px;">What are your fitness goals?</h1>
                 <h4 class="fw-bold text-start text-light" style="margin-top: 20px;margin-bottom: 35px;">Tell us exactly what you need and we will define the best personal trainer option for you!<br></h4>
+                <p><span style="color: rgb(255, 255, 255);">The Get Coached online personal trainer is suitable for anyone who wants to create an exercise routine. The professional frequently adjusts the training and gets in direct contact with the student to answer questions and monitor their progress. As soon as you start, you’ll be asked to complete a short consultation form so that we can match you to the right trainer.&nbsp;</span></p>
             </div>
         </div>
         <div class="row" style="/*margin-right: -12px;*//*padding-right: 20px;*/">
@@ -144,7 +147,7 @@
                 </div>
             </div>
             <div class="col-md-4" style="padding-right: 0px;padding-left: 0px;margin-bottom: 50px;">
-                <div class="border rounded border-0 m-auto plancard" style="width: 300px;height: 550px;background: linear-gradient(rgba(255,193,36,0.75) 19%, #212529 100%);"><img class="img-fluid d-flex d-xxl-flex justify-content-center m-auto justify-content-xxl-center" src="assets/img/14651581111626677982-128.png" style="padding-top: 20px;">
+                <div class="border rounded border-0 m-auto plancard" style="width: 300px;height: 550px;background: linear-gradient(rgba(255,193,36,0.91) 19%, #212529 100%);"><img class="img-fluid d-flex d-xxl-flex justify-content-center m-auto justify-content-xxl-center" src="assets/img/14651581111626677982-128.png" style="padding-top: 20px;">
                     <h1 class="fw-bolder text-center">Month</h1>
                     <h3 class="fw-light text-center text-white-50">Advanced</h3>
                     <p class="text-white" style="margin-bottom: 10px;padding-left: 40px;">Diet</p>
@@ -166,6 +169,10 @@
                     <p class="text-white" style="color: rgb(133,133,133);margin-bottom: 10px;padding-left: 40px;">Mentoring</p>
                     <p class="text-white" style="margin-bottom: 25px;padding-left: 40px;">Photos-Updated</p><button class="btn btn-warning text-center link-warning border rounded border-2 border-white d-flex justify-content-center m-auto" type="button" style="background: rgba(255,193,7,0);box-shadow: 3px 3px 7px 1px rgba(255,193,7,0.44);">START NOW</button>
                 </div>
+            </div>
+            <div class="col">
+                <h5 class="text-center text-warning" style="font-family: 'SF Pro Display';margin: 20px;font-size: 29px;"><strong>Workout sheets with personal trainer monitoring.</strong><br></h5>
+                <p class="text-center text-white para3" style="font-family: 'SF Pro Display';font-size: 21px;padding: 20px;">More experienced athletes usually already use or have used training worksheets to keep themselves prepared and training for their challenges.<br>But between us, do you know why we need to follow a worksheet like this to train? A lot of people think it's "just a training schedule", let's understand?<br></p>
             </div>
         </div>
     </div>
@@ -205,6 +212,7 @@
     </div>
     <div class="container"></div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
 </body>
 
 </html>
