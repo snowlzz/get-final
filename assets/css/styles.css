@@ -94,6 +94,10 @@
   }
 }
 
+.link-buy {
+  color: rgba(var(--bs-warning-rgb),var(--bs-text-opacity));
+}
+
 .plancard1 {
   height: 550px;
   width: 400px;
