@@ -94,10 +94,6 @@
   }
 }
 
-.link-buy {
-  color: rgba(var(--bs-warning-rgb),var(--bs-text-opacity));
-}
-
 .plancard1 {
   height: 550px;
   width: 400px;
@@ -117,5 +113,14 @@
     align-self: center;
     justify-content: center!important;
   }
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
+  color: var(--bs-warning);
+}
+
+.link-warning:focus, .link-warning:hover {
+  color: #ffcd39!important;
+  text-decoration: none;
 }
 
